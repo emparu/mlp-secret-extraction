@@ -16,7 +16,7 @@ The notebooks were developed and run on Kaggle (hence the `/kaggle/input/...` pa
 |---|---|---|
 | `lpe9datagen48bit-16strings-ipynb.ipynb` | 48-bit 1-layer ReLU organisms (balanced sampling) | [kaggle](https://www.kaggle.com/code/emanuelruzak/lpe9datagen48bit-16strings-ipynb) |
 | `gendatasetlpe34bit3layerrelu2.ipynb` | 34-bit 3-layer ReLU²+RMSNorm organisms (brute-force certified, near-miss sampling) | [kaggle](https://www.kaggle.com/code/emanuelruzak/gendatasetlpe34bit3layerrelu2) |
-| `gendatasetlpe64bit3layerrelu2.ipynb` | 64-bit 3-layer ReLU²+RMSNorm organisms | [kaggle](https://www.kaggle.com/code/emanuelruzak/gendatasetlpe64bit3layerrelu2) ⚠️ |
+| `gendatasetlpe64bit3layerrelu2.ipynb` | 64-bit 3-layer ReLU²+RMSNorm organisms | [kaggle](https://www.kaggle.com/code/emanuelruzak/gendatasetlpe64bit3layerrelu2) |
 
 ### Weight-reader training (the meta-transformer)
 | Notebook | What it does | Kaggle |
@@ -32,4 +32,4 @@ The notebooks were developed and run on Kaggle (hence the `/kaggle/input/...` pa
 | `memorization-depth-activation-sweep-ipynb.ipynb` | Depth × activation sweep at fixed params: memorization, halo (brute 2²⁸), search battery, ARC estimators | [kaggle](https://www.kaggle.com/code/emanuelruzak/memorization-depth-activation-sweep-ipynb) |
 | `battery-on-real-datasets.ipynb` | Neuron-seed recovery rate over thousands of real-dataset organisms (per composed-product breakdown) | [kaggle](https://www.kaggle.com/code/emanuelruzak/battery-on-real-datasets) |
 
-> Kaggle slugs follow each notebook's filename. ⚠️ `gendatasetlpe64bit3layerrelu2` currently returns 404 to anonymous visitors — its Kaggle kernel is most likely still private (make it public to share); the slug itself matches the dataset input path used by the other notebooks. The other 8 links resolve.
+> Each Kaggle link points to the original kernel under [kaggle.com/emanuelruzak](https://www.kaggle.com/emanuelruzak/code).
